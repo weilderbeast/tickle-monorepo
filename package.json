@@ -5,7 +5,11 @@
     "frontend": "yarn frontend dev",
     "frontend_build": "yarn frontend build",
     "frontend_preview": "yarn frontend preview",
-    "storybook": "yarn frontend storybook"
+    "storybook": "yarn frontend storybook",
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "lint": "turbo run lint",
+    "deploy": "turbo run deploy"
   },
   "workspaces": [
     "backend/*",

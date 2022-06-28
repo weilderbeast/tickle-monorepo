@@ -1,7 +1,11 @@
 {
   "name": "tickle",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "frontend": "yarn frontend dev",
+    "frontend_build": "yarn frontend build",
+    "frontend_preview": "yarn frontend preview"
+  },
   "workspaces": [
     "backend/*",
     "frontend/*"

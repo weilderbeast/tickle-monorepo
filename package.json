@@ -7,13 +7,13 @@
     "frontend_preview": "yarn frontend preview",
     "storybook": "yarn frontend storybook",
     "build": "turbo run build",
+    "dev": "turbo run dev --no-cache --parallel --continue",
     "test": "turbo run test",
     "lint": "turbo run lint",
     "deploy": "turbo run deploy"
   },
   "workspaces": [
-    "backend/*",
-    "frontend/*"
+    "src/*"
   ],
   "devDependencies": {
     "turbo": "^1.3.1"

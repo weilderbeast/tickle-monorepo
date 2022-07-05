@@ -1,0 +1,22 @@
+name: "Frontend - Build and Test"
+
+inputs:
+  environment_id:
+    description: Environment ID
+    required: true
+
+runs:
+  using: "composite"
+  steps: 
+    - name: Set-up Node
+    - uses: actions/setup-node@v3
+      with: node-version: 14
+    - name: Build
+      working-directory: ./frontend
+      env: ENVIRONMENT_ID: ${{inputs.environment_id}}
+      run: |
+        echo "REACT_APP_ENVIRONMENT_ID=$ENVIRONMENT_ID" >> .env
+        yarn install --immutable
+        yarn build
+        yarn test
+        yarn lint

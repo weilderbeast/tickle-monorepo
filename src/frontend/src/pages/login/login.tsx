@@ -1,7 +1,8 @@
-import { Box, Button, Divider, Flex, HStack, Input } from "@chakra-ui/react";
+import { Button, Divider, Flex, HStack, Input } from "@chakra-ui/react";
 import { Title } from "./login-title";
 import { FaGithub } from "react-icons/fa";
-import { authFlow } from "../../firebase/auth/auth";
+import { FaGoogle } from "react-icons/fa";
+import { useLogin } from "./use-login";
 
 export const Login = () => {
   return (
@@ -18,7 +19,7 @@ export const Login = () => {
 };
 
 const EmailAndPasswordLogin = () => {
-  const { signInWithGithub } = authFlow();
+  const { signInWithGithub, signInWithGoogle } = useLogin();
   return (
     <Flex
       justifyContent="center"
@@ -59,6 +60,15 @@ const EmailAndPasswordLogin = () => {
         >
           <FaGithub />
           Github
+        </Button>
+        <Button
+          background="#010409"
+          color="white"
+          gap="8px"
+          onClick={() => signInWithGoogle()}
+        >
+          <FaGoogle />
+          Google
         </Button>
       </Flex>
     </Flex>

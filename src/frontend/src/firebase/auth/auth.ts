@@ -1,13 +1,28 @@
 import { getAuth, signInWithPopup } from "firebase/auth";
 import { githubAuthProvider } from "./github-auth";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { useLocalStorageManager } from "../../model/local-storage-manager";
+import { googleAuthProvider } from "./google-auth";
 
 export const authFlow = () => {
   const [user, setUser] = useState({});
+  const { set } = useLocalStorageManager();
+
+  useEffect(() => {
+    set("user", JSON.stringify(user));
+  }, [user]);
+
   const signInWithGithub = async () => {
     const auth = getAuth();
-    const provider = githubAuthProvider();
-    const tempUser = await signInWithPopup(auth, provider);
+    const githubProvider = githubAuthProvider();
+    const tempUser = await signInWithPopup(auth, githubProvider);
+    setUser(tempUser);
+  };
+
+  const signInWithGoogle = async () => {
+    const auth = getAuth();
+    const googleProvider = googleAuthProvider();
+    const tempUser = await signInWithPopup(auth, googleProvider);
     setUser(tempUser);
     console.log(tempUser);
   };
@@ -15,5 +30,6 @@ export const authFlow = () => {
   return {
     user,
     signInWithGithub,
+    signInWithGoogle,
   };
 };

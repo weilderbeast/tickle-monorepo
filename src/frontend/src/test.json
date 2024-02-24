@@ -1,0 +1,102 @@
+{
+  "user": {
+    "uid": "PT7RLLQ6uVUU9GBHbrVntR3HVpw1",
+    "email": "bogdan.is.a.beast@gmail.com",
+    "emailVerified": false,
+    "displayName": "Cîrstoiu Bogdan-Florin",
+    "isAnonymous": false,
+    "photoURL": "https://avatars.githubusercontent.com/u/62263505?v=4",
+    "providerData": [
+      {
+        "providerId": "github.com",
+        "uid": "62263505",
+        "displayName": "Cîrstoiu Bogdan-Florin",
+        "email": "bogdan.is.a.beast@gmail.com",
+        "phoneNumber": null,
+        "photoURL": "https://avatars.githubusercontent.com/u/62263505?v=4"
+      }
+    ],
+    "stsTokenManager": {
+      "refreshToken": "AMf-vBwKPRqDkWJ-CY3spgAaLNAeWRbo8q2OaInegV5Vlw9tXNKfoxh0T9LdtAUe0V4ZEe64JW092MgOr3Hzq8jN6t5FU5PQQSs88cIYg7E4r6vQJ-TY_3m1FEvZpbCm-i4r9BwTg90TfFkwfprlXNevpFjBoNJcWDgDt7A6ghpVbHkguuAW9ptG020PF0T1qP7BD8-bwKWiBhIfG30FJzLCzYrK1onC5l8lbHb3inTLXE8zjpZQuuGE7CFYE_p7cf8ueKPtdVZB2vZMaFJqgVE71XQcgLl1GHOH84WJ2THIToQbAAqujSbNktjZOLeein-M_lCJWkrp3hNPMLLG3RAe-WtA-DfTrSPTDgDFK_gz2UZD5G_jWgY",
+      "accessToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjViNjAyZTBjYTFmNDdhOGViZmQxMTYwNGQ5Y2JmMDZmNGQ0NWY4MmIiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiQ8OucnN0b2l1IEJvZ2Rhbi1GbG9yaW4iLCJwaWN0dXJlIjoiaHR0cHM6Ly9hdmF0YXJzLmdpdGh1YnVzZXJjb250ZW50LmNvbS91LzYyMjYzNTA1P3Y9NCIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS90aWNrbGUtZGV2MzIiLCJhdWQiOiJ0aWNrbGUtZGV2MzIiLCJhdXRoX3RpbWUiOjE3MDYxNzY2MjcsInVzZXJfaWQiOiJQVDdSTExRNnVWVVU5R0JIYnJWbnRSM0hWcHcxIiwic3ViIjoiUFQ3UkxMUTZ1VlVVOUdCSGJyVm50UjNIVnB3MSIsImlhdCI6MTcwNjE3NjYyNywiZXhwIjoxNzA2MTgwMjI3LCJlbWFpbCI6ImJvZ2Rhbi5pcy5hLmJlYXN0QGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJnaXRodWIuY29tIjpbIjYyMjYzNTA1Il0sImVtYWlsIjpbImJvZ2Rhbi5pcy5hLmJlYXN0QGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6ImdpdGh1Yi5jb20ifX0.Li8P-NltFYNSgifPFU_DDQzdpsqjb0e1ebxl2_dEi2v8MIhsQLjlPlrJGPytE_1_L3B3jMxOse_NlGATe55NDoQLwAy5hRUuUwhFpepj_fke08yfRIX_dNzCS582U2sqMnVUfeWZoI4x9s72JSntCrRVKhHhNbqQyGA5u5EDcRcm5UFf31ea5aH24LOedyCbgRWsykwXoIsVCo-tm8mo3HCLmnPX6Qp81vXd5RfPOrMnUxTc_yzYf0kTUf_0sTQwcNf5SFXXwPu9LuynKeQ2azey1PS9OVVvgqvF8k_bgE_YYJCoiCv6EXV22Zj1fiePeCD2G6i5HOj3ZougZ-A6Tg",
+      "expirationTime": 1706180225828
+    },
+    "createdAt": "1706138901186",
+    "lastLoginAt": "1706176627146",
+    "apiKey": "AIzaSyDgTudxY_-YdaiS4rIWFKGHeyzCSA1hiyI",
+    "appName": "[DEFAULT]"
+  },
+  "providerId": "github.com",
+  "_tokenResponse": {
+    "federatedId": "http://github.com/62263505",
+    "providerId": "github.com",
+    "email": "bogdan.is.a.beast@gmail.com",
+    "emailVerified": false,
+    "fullName": "Cîrstoiu Bogdan-Florin",
+    "photoUrl": "https://avatars.githubusercontent.com/u/62263505?v=4",
+    "localId": "PT7RLLQ6uVUU9GBHbrVntR3HVpw1",
+    "displayName": "Cîrstoiu Bogdan-Florin",
+    "idToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjViNjAyZTBjYTFmNDdhOGViZmQxMTYwNGQ5Y2JmMDZmNGQ0NWY4MmIiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiQ8OucnN0b2l1IEJvZ2Rhbi1GbG9yaW4iLCJwaWN0dXJlIjoiaHR0cHM6Ly9hdmF0YXJzLmdpdGh1YnVzZXJjb250ZW50LmNvbS91LzYyMjYzNTA1P3Y9NCIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS90aWNrbGUtZGV2MzIiLCJhdWQiOiJ0aWNrbGUtZGV2MzIiLCJhdXRoX3RpbWUiOjE3MDYxNzY2MjcsInVzZXJfaWQiOiJQVDdSTExRNnVWVVU5R0JIYnJWbnRSM0hWcHcxIiwic3ViIjoiUFQ3UkxMUTZ1VlVVOUdCSGJyVm50UjNIVnB3MSIsImlhdCI6MTcwNjE3NjYyNywiZXhwIjoxNzA2MTgwMjI3LCJlbWFpbCI6ImJvZ2Rhbi5pcy5hLmJlYXN0QGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJnaXRodWIuY29tIjpbIjYyMjYzNTA1Il0sImVtYWlsIjpbImJvZ2Rhbi5pcy5hLmJlYXN0QGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6ImdpdGh1Yi5jb20ifX0.Li8P-NltFYNSgifPFU_DDQzdpsqjb0e1ebxl2_dEi2v8MIhsQLjlPlrJGPytE_1_L3B3jMxOse_NlGATe55NDoQLwAy5hRUuUwhFpepj_fke08yfRIX_dNzCS582U2sqMnVUfeWZoI4x9s72JSntCrRVKhHhNbqQyGA5u5EDcRcm5UFf31ea5aH24LOedyCbgRWsykwXoIsVCo-tm8mo3HCLmnPX6Qp81vXd5RfPOrMnUxTc_yzYf0kTUf_0sTQwcNf5SFXXwPu9LuynKeQ2azey1PS9OVVvgqvF8k_bgE_YYJCoiCv6EXV22Zj1fiePeCD2G6i5HOj3ZougZ-A6Tg",
+    "context": "",
+    "oauthAccessToken": "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",
+    "refreshToken": "AMf-vBwKPRqDkWJ-CY3spgAaLNAeWRbo8q2OaInegV5Vlw9tXNKfoxh0T9LdtAUe0V4ZEe64JW092MgOr3Hzq8jN6t5FU5PQQSs88cIYg7E4r6vQJ-TY_3m1FEvZpbCm-i4r9BwTg90TfFkwfprlXNevpFjBoNJcWDgDt7A6ghpVbHkguuAW9ptG020PF0T1qP7BD8-bwKWiBhIfG30FJzLCzYrK1onC5l8lbHb3inTLXE8zjpZQuuGE7CFYE_p7cf8ueKPtdVZB2vZMaFJqgVE71XQcgLl1GHOH84WJ2THIToQbAAqujSbNktjZOLeein-M_lCJWkrp3hNPMLLG3RAe-WtA-DfTrSPTDgDFK_gz2UZD5G_jWgY",
+    "expiresIn": "3600",
+    "screenName": "weilderbeast",
+    "rawUserInfo": "{\"gists_url\":\"https://api.github.com/users/weilderbeast/gists{/gist_id}\",\"repos_url\":\"https://api.github.com/users/weilderbeast/repos\",\"following_url\":\"https://api.github.com/users/weilderbeast/following{/other_user}\",\"twitter_username\":null,\"bio\":null,\"created_at\":\"2020-03-16T20:10:14Z\",\"login\":\"weilderbeast\",\"type\":\"User\",\"blog\":\"\",\"subscriptions_url\":\"https://api.github.com/users/weilderbeast/subscriptions\",\"updated_at\":\"2024-01-21T20:33:57Z\",\"site_admin\":false,\"company\":null,\"id\":62263505,\"public_repos\":16,\"gravatar_id\":\"\",\"email\":null,\"organizations_url\":\"https://api.github.com/users/weilderbeast/orgs\",\"hireable\":null,\"starred_url\":\"https://api.github.com/users/weilderbeast/starred{/owner}{/repo}\",\"followers_url\":\"https://api.github.com/users/weilderbeast/followers\",\"public_gists\":0,\"url\":\"https://api.github.com/users/weilderbeast\",\"received_events_url\":\"https://api.github.com/users/weilderbeast/received_events\",\"followers\":4,\"avatar_url\":\"https://avatars.githubusercontent.com/u/62263505?v=4\",\"events_url\":\"https://api.github.com/users/weilderbeast/events{/privacy}\",\"html_url\":\"https://github.com/weilderbeast\",\"following\":14,\"name\":\"Cîrstoiu Bogdan-Florin\",\"location\":null,\"node_id\":\"MDQ6VXNlcjYyMjYzNTA1\"}",
+    "kind": "identitytoolkit#VerifyAssertionResponse"
+  },
+  "operationType": "signIn"
+}
+
+
+{
+    "user": {
+        "uid": "PT7RLLQ6uVUU9GBHbrVntR3HVpw1",
+        "email": "bogdan.is.a.beast@gmail.com",
+        "emailVerified": true,
+        "displayName": "Cîrstoiu Bogdan",
+        "isAnonymous": false,
+        "photoURL": "https://lh3.googleusercontent.com/a/ACg8ocKv9H3htXWLftgy8nUjc3KC9u0x0rREodlJS_0xNxuEfV8=s96-c",
+        "providerData": [
+            {
+                "providerId": "google.com",
+                "uid": "110617372591234295717",
+                "displayName": "Cîrstoiu Bogdan",
+                "email": null,
+                "phoneNumber": null,
+                "photoURL": "https://lh3.googleusercontent.com/a/ACg8ocKv9H3htXWLftgy8nUjc3KC9u0x0rREodlJS_0xNxuEfV8=s96-c"
+            }
+        ],
+        "stsTokenManager": {
+            "refreshToken": "AMf-vBydxOfgMEGN4ghafeP4xUOZdQ547LcIwO8aLNWr17vkPZbKp9rQ4cY4INTqL4MPf9KNPlVbC1rzXouzTqerHaTjwTmjlNdjJJFbieTqOlduFNMIXlhcjma_M8Lr92rjUXi06-M1EieZXlB_gxizYs_BAz9H5opdhyQpiD6_3F7Z9bbVgiS-SE2b0CAtITH3V6f74h_LAus1yDJ73-VmbHS15BijdUiTrj-CqWqeo2VzJWWsiOvzFnNMEEYqfWkV4KTUKAWs6spJgc5ZzurXnzy5uogHjRHEXC2P1lDtV-FRTlnDSxLUsEpIQhkCSlNiuEwYwEBToqmp_qBhO8LUW5IUyk1Xsfl5Zzq0MPgtViEgumXD6B166RQk6nESMPzp0JRelpgFl1IAL0FJX1G7EYTiv8p7YA",
+            "accessToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjViNjAyZTBjYTFmNDdhOGViZmQxMTYwNGQ5Y2JmMDZmNGQ0NWY4MmIiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiQ8OucnN0b2l1IEJvZ2RhbiIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NLdjlIM2h0WFdMZnRneThuVWpjM0tDOXUweDByUkVvZGxKU18weE54dUVmVjg9czk2LWMiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vdGlja2xlLWRldjMyIiwiYXVkIjoidGlja2xlLWRldjMyIiwiYXV0aF90aW1lIjoxNzA2MjcxOTA3LCJ1c2VyX2lkIjoiUFQ3UkxMUTZ1VlVVOUdCSGJyVm50UjNIVnB3MSIsInN1YiI6IlBUN1JMTFE2dVZVVTlHQkhiclZudFIzSFZwdzEiLCJpYXQiOjE3MDYyNzE5MDcsImV4cCI6MTcwNjI3NTUwNywiZW1haWwiOiJib2dkYW4uaXMuYS5iZWFzdEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJnb29nbGUuY29tIjpbIjExMDYxNzM3MjU5MTIzNDI5NTcxNyJdLCJlbWFpbCI6WyJib2dkYW4uaXMuYS5iZWFzdEBnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJnb29nbGUuY29tIn19.VEx5pGb2V3kc0ScUMa6NH4padd-_pR5nouemS54UsGzlXJJTLfpU_7gfvQKV0eo1xLovTwf4Rpn1_lN1KhaFFHjXlZWg5802zn_Rk41E__WhdHJwYTf7b29at3kG2LUCwO3k_VmfusHrTXH6FndB2wSIasmyNMsrxQZWnEYeYumf-pP3HbPImpx5zeO7qI2A85CSoNBkeocVZbdA-yhi3bWA8Nx4w1FuSxf33XBnwsHze10BcIEmmWsuO7teXqzD7X45JZBtMIK328ybpwTzvzfuB80O-WnjfylneYysbNn6BUp44WRK1TR-Qcq9GhADx7yLO5oTem65JxRVa4krbg",
+            "expirationTime": 1706275507870
+        },
+        "createdAt": "1706138901186",
+        "lastLoginAt": "1706271907827",
+        "apiKey": "AIzaSyDgTudxY_-YdaiS4rIWFKGHeyzCSA1hiyI",
+        "appName": "[DEFAULT]"
+    },
+    "providerId": "google.com",
+    "_tokenResponse": {
+        "federatedId": "https://accounts.google.com/110617372591234295717",
+        "providerId": "google.com",
+        "emailVerified": false,
+        "firstName": "Cîrstoiu",
+        "fullName": "Cîrstoiu Bogdan",
+        "lastName": "Bogdan",
+        "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKv9H3htXWLftgy8nUjc3KC9u0x0rREodlJS_0xNxuEfV8=s96-c",
+        "localId": "PT7RLLQ6uVUU9GBHbrVntR3HVpw1",
+        "displayName": "Cîrstoiu Bogdan",
+        "idToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjViNjAyZTBjYTFmNDdhOGViZmQxMTYwNGQ5Y2JmMDZmNGQ0NWY4MmIiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiQ8OucnN0b2l1IEJvZ2RhbiIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NLdjlIM2h0WFdMZnRneThuVWpjM0tDOXUweDByUkVvZGxKU18weE54dUVmVjg9czk2LWMiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vdGlja2xlLWRldjMyIiwiYXVkIjoidGlja2xlLWRldjMyIiwiYXV0aF90aW1lIjoxNzA2MjcxOTA3LCJ1c2VyX2lkIjoiUFQ3UkxMUTZ1VlVVOUdCSGJyVm50UjNIVnB3MSIsInN1YiI6IlBUN1JMTFE2dVZVVTlHQkhiclZudFIzSFZwdzEiLCJpYXQiOjE3MDYyNzE5MDcsImV4cCI6MTcwNjI3NTUwNywiZW1haWwiOiJib2dkYW4uaXMuYS5iZWFzdEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJnb29nbGUuY29tIjpbIjExMDYxNzM3MjU5MTIzNDI5NTcxNyJdLCJlbWFpbCI6WyJib2dkYW4uaXMuYS5iZWFzdEBnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJnb29nbGUuY29tIn19.VEx5pGb2V3kc0ScUMa6NH4padd-_pR5nouemS54UsGzlXJJTLfpU_7gfvQKV0eo1xLovTwf4Rpn1_lN1KhaFFHjXlZWg5802zn_Rk41E__WhdHJwYTf7b29at3kG2LUCwO3k_VmfusHrTXH6FndB2wSIasmyNMsrxQZWnEYeYumf-pP3HbPImpx5zeO7qI2A85CSoNBkeocVZbdA-yhi3bWA8Nx4w1FuSxf33XBnwsHze10BcIEmmWsuO7teXqzD7X45JZBtMIK328ybpwTzvzfuB80O-WnjfylneYysbNn6BUp44WRK1TR-Qcq9GhADx7yLO5oTem65JxRVa4krbg",
+        "context": "",
+        "oauthAccessToken": "ya29.a0AfB_byBBavZ0S-LFiSzGsjad-wk1MNJ5rEx_C4D2-n0MwgRuuAMID9eSpZ92NHiOfEHj4Yae8V5lZurCSOlDBPYVDKssF5JDTxQiaRNdYDyMGPrIo85sJ54Vc_LqE_RAS286t3uf_4Ugv9KHbjEyTSwIjDP0JCF4UHnuaCgYKAbASARISFQHGX2MiJ0J3QnQweh08WXOZ0dVFow0171",
+        "oauthExpireIn": 3599,
+        "refreshToken": "AMf-vBydxOfgMEGN4ghafeP4xUOZdQ547LcIwO8aLNWr17vkPZbKp9rQ4cY4INTqL4MPf9KNPlVbC1rzXouzTqerHaTjwTmjlNdjJJFbieTqOlduFNMIXlhcjma_M8Lr92rjUXi06-M1EieZXlB_gxizYs_BAz9H5opdhyQpiD6_3F7Z9bbVgiS-SE2b0CAtITH3V6f74h_LAus1yDJ73-VmbHS15BijdUiTrj-CqWqeo2VzJWWsiOvzFnNMEEYqfWkV4KTUKAWs6spJgc5ZzurXnzy5uogHjRHEXC2P1lDtV-FRTlnDSxLUsEpIQhkCSlNiuEwYwEBToqmp_qBhO8LUW5IUyk1Xsfl5Zzq0MPgtViEgumXD6B166RQk6nESMPzp0JRelpgFl1IAL0FJX1G7EYTiv8p7YA",
+        "expiresIn": "3600",
+        "oauthIdToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6Ijg1ZTU1MTA3NDY2YjdlMjk4MzYxOTljNThjNzU4MWY1YjkyM2JlNDQiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNjgzODA4MTkyOTQ3LTgwMHFidW4xNW9jNjZsMW5iNWM2Mzg0aWEzMW5lZjZhLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNjgzODA4MTkyOTQ3LTgwMHFidW4xNW9jNjZsMW5iNWM2Mzg0aWEzMW5lZjZhLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTEwNjE3MzcyNTkxMjM0Mjk1NzE3IiwiYXRfaGFzaCI6IklWTEdxY3gyTDhYWjlPTHF6VDR6V0EiLCJpYXQiOjE3MDYyNzE5MDcsImV4cCI6MTcwNjI3NTUwN30.VnPsh9cMZfd3_xNpmGZ0TOJh8MdNnjlwVag2djIcyOaoSr0YOkEoQRgop0OUUNchPwHNyWjcp6OihIdzTPUNEiBhKnmxcIplJ8yHKTP_pZBpPU7JwyBe5eiISa0c34mFdJaHPluaFAS_s9b5YWdj5car3u-vaktCLiq1tzq_rKCBlfNvov96mOfpyf_NTPEqrR-NdpQonCc1_upd1rfcyw0ojHtOnJwn6iMImAKzIpDvyPCcmy7O1oAfqynQqpPPkXGb9FUgYLOe-UeoYiV5YHeWDlYkGJkaLGC6Qjn4A98YdlEvdliF-573opp-lixtoaUYOMaprC5HdVcF4fa66A",
+        "rawUserInfo": "{\"name\":\"Cîrstoiu Bogdan\",\"granted_scopes\":\"https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/contacts.readonly openid\",\"id\":\"110617372591234295717\",\"given_name\":\"Cîrstoiu\",\"locale\":\"en\",\"family_name\":\"Bogdan\",\"picture\":\"https://lh3.googleusercontent.com/a/ACg8ocKv9H3htXWLftgy8nUjc3KC9u0x0rREodlJS_0xNxuEfV8=s96-c\"}",
+        "kind": "identitytoolkit#VerifyAssertionResponse"
+    },
+    "operationType": "signIn"
+}

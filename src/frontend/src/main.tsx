@@ -6,11 +6,19 @@ import { RouterProvider } from "react-router-dom";
 import { createRouter } from "./pages/router";
 
 import "./index.css";
+import { AuthProvider } from "./providers/auth-provider";
+import { AppContextProvider } from "./providers/app-provider";
+
+const { router } = createRouter();
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <ChakraProvider>
-      <RouterProvider router={createRouter()} />
+      <AppContextProvider>
+        <AuthProvider>
+          <RouterProvider router={router} />
+        </AuthProvider>
+      </AppContextProvider>
     </ChakraProvider>
   </React.StrictMode>
 );

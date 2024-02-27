@@ -1,10 +1,15 @@
 import { RegisterForm } from "./register-form";
 import { FcGoogle } from "react-icons/fc";
 import { FaGithub } from "react-icons/fa";
+import { ModeToggle } from "@/components/ui/mode-toggle";
 
 export const Register = () => {
   return (
-    <div className="flex w-screen h-screen">
+    <div className="flex w-screen h-screen relative">
+      <div className="absolute top-8 left-8">
+        <ModeToggle />
+      </div>
+
       <div className="w-1/2 h-full bg-zinc-900 flex justify-center items-center">
         <h1 className="text-6xl font-bold">Tickle.</h1>
       </div>
@@ -17,9 +22,9 @@ export const Register = () => {
         </a>
         <div className="w-[400px] mx-auto space-y-6">
           <div className="space-y-2">
-            <h1 className="text-4xl font-bold text-center">Register</h1>
+            <h1 className="text-4xl font-bold text-center">Register account</h1>
             <p className="text-muted-foreground text-center">
-              Create an account to use this app.
+              Email & password, or Github & Google OAuth
             </p>
           </div>
 

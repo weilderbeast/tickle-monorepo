@@ -32,7 +32,6 @@ const formSchema = z.object({
 });
 
 export const RegisterForm = () => {
-  // 1. Define your form.
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
@@ -42,10 +41,7 @@ export const RegisterForm = () => {
     },
   });
 
-  // 2. Define a submit handler.
   const onSubmit = (values: z.infer<typeof formSchema>) => {
-    // Do something with the form values.
-    // ✅ This will be type-safe and validated.
     console.log(values);
   };
 

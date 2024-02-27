@@ -1,7 +1,6 @@
-import React, { createContext, useEffect, useState } from "react";
-import { User } from "../model/user";
+import { createContext, useContext, useState } from "react";
 import { useLocalStorageManager } from "../model/local-storage-manager";
-import { useNavigate } from "react-router-dom";
+import { User } from "../model/user";
 
 enum providerType {
   "github.com",
@@ -65,13 +64,20 @@ type googleSessionType = {
 
 type sessionType = githubSessionType | googleSessionType;
 
-type authContextType = {
-  user: User;
+type AuthContextType = {
+  user: User | null;
   setUser: (user: User) => void;
-  session: sessionType;
-  vendorTokenResponse: tokenResponseType;
-  providerId: providerType;
+  session: sessionType | null;
+  vendorTokenResponse: tokenResponseType | null;
+  providerId: providerType | null;
+  isAuthenticated: boolean;
+  resetAuth: () => void;
+  findAuthFromLocalStorage: () => void;
 };
+
+export const AuthContext = createContext<AuthContextType>(
+  {} as AuthContextType
+);
 
 export const useSessionManager = ({ session }: { session: sessionType }) => {
   const [sessionManager, setSessionManager] = useState<sessionType>(session);
@@ -79,65 +85,59 @@ export const useSessionManager = ({ session }: { session: sessionType }) => {
   return { sessionManager, setSessionManager };
 };
 
-export const AuthContext = createContext<authContextType>(
-  {} as authContextType
-);
+export const useAuthContext = () => useContext<AuthContextType>(AuthContext);
 
-export const AuthProvider = ({
-  children,
-}: {
-  children: React.ReactNode | React.ReactNode[];
-}) => {
-  const [authContext, setAuthContext] = useState<authContextType>(
-    {} as authContextType
-  );
-  const { clear, get, getSafe, remove, set } = useLocalStorageManager();
-  const navigate = useNavigate();
+export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
+  const [user, setUser] = useState<User | null>(null);
+  const [session, setSession] = useState<sessionType | null>(null);
+  const [vendorTokenResponse, setVendorTokenResponse] =
+    useState<tokenResponseType | null>(null);
+  const [providerId, setProviderId] = useState<providerType | null>(null);
+  const { getSafe } = useLocalStorageManager();
 
-  const findCachedAtuh = () => {
-    const user = getSafe("user", true);
-    if (!user) return null;
-    const session = getSafe("session", true);
-    if (!session) return null;
-    const providerId = getSafe("providerId", true);
-    if (!providerId) return null;
-    const vendorTokenResponse = getSafe("vendorTokenResponse", true);
-    if (!vendorTokenResponse) return null;
-    const authCon: authContextType = {
-      user,
-      setUser: (user: User) => {
-        set("user", JSON.stringify(user));
-        setAuthContext({ ...authContext, user });
-      },
-      session,
-      vendorTokenResponse,
-      providerId,
-    };
-
-    return authCon;
-  };
+  const isAuthenticated = user !== null;
 
   const resetAuth = () => {
-    clear();
-    setAuthContext({} as authContextType);
+    setUser(null);
+    setSession(null);
+    setVendorTokenResponse(null);
+    setProviderId(null);
   };
 
-  useEffect(() => {
-    if (!authContext || !authContext.user) {
-      const context = findCachedAtuh();
+  const findAuthFromLocalStorage = () => {
+    const tempAuth = {
+      user: getSafe("user", true),
+      session: getSafe("session", true),
+      vendorTokenResponse: getSafe("vendorTokenResponse", true),
+      providerId: getSafe("providerId", true),
+    };
 
-      if (!context) {
-        //new login session
-        navigate("/login");
-        resetAuth();
-        return;
-      }
-
-      setAuthContext(context);
+    if (
+      tempAuth.user === null ||
+      tempAuth.session === null ||
+      tempAuth.vendorTokenResponse === null ||
+      tempAuth.providerId === null
+    ) {
+      return;
     }
-  }, [authContext]);
+
+    setUser(tempAuth.user);
+  };
 
   return (
-    <AuthContext.Provider value={authContext}>{children}</AuthContext.Provider>
+    <AuthContext.Provider
+      value={{
+        user,
+        setUser,
+        session,
+        vendorTokenResponse,
+        providerId,
+        isAuthenticated,
+        resetAuth,
+        findAuthFromLocalStorage,
+      }}
+    >
+      {children}
+    </AuthContext.Provider>
   );
 };

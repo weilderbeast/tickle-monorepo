@@ -1,76 +1,43 @@
-import { Button, Divider, Flex, HStack, Input } from "@chakra-ui/react";
-import { Title } from "./login-title";
-import { FaGithub } from "react-icons/fa";
-import { FaGoogle } from "react-icons/fa";
-import { useLogin } from "./use-login";
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardFooter,
+  CardHeader,
+} from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Separator } from "@/components/ui/separator";
 
 export const Login = () => {
   return (
-    <HStack w="100vw" h="100vh" alignItems="center">
-      <Flex w="30%" height="100%" justifyContent="center" alignItems="center">
-        <Title />
-      </Flex>
-      <Divider orientation="vertical" height="80%" />
-      <Flex w="70%" height="100%">
-        <EmailAndPasswordLogin />
-      </Flex>
-    </HStack>
-  );
-};
-
-const EmailAndPasswordLogin = () => {
-  const { signInWithGithub, signInWithGoogle } = useLogin();
-  return (
-    <Flex
-      justifyContent="center"
-      alignItems="flex-start"
-      flexDirection="column"
-      gap="30px"
-      w="100%"
-      h="100%"
-      padding="80px"
-    >
-      <Input
-        placeholder="Username"
-        border="none"
-        backgroundColor="var(--bg-secondary)"
-        width="300px"
-      />
-      <Input
-        placeholder="Password"
-        border="none"
-        backgroundColor="var(--bg-secondary)"
-        width="300px"
-      />
-      <Flex gap="12px" height="40px">
-        <Button
-          background="var(--highlight)"
-          _hover={{
-            background: "var(--accent)",
-          }}
-          width="80px"
-        >
-          Login
-        </Button>
-        <Button
-          background="#010409"
-          color="white"
-          gap="8px"
-          onClick={() => signInWithGithub()}
-        >
-          <FaGithub />
-          Github
-        </Button>
-        <Button
-          background="#010409"
-          color="white"
-          gap="8px"
-          onClick={() => signInWithGoogle()}
-        >
-          <FaGoogle />
-          Google
-        </Button>
-      </Flex>
-    </Flex>
+    <div className="flex justify-center content-center w-screen h-screen">
+      <div className="h-[300px]">
+        <Card>
+          <CardHeader>
+            <h2>Create an account</h2>
+            <p>Needed to use the platform.</p>
+          </CardHeader>
+          <CardContent>
+            <div className="flex w-100 justify-center content-center">
+              <Button>Github</Button>
+              <Button>Google</Button>
+            </div>
+            <Separator />
+            <div>
+              <Label htmlFor="email">Email</Label>
+              <Input id="email" type="email" placeholder="email" />
+            </div>
+            <div>
+              <Label htmlFor="password">Password</Label>
+              <Input id="password" type="password" placeholder="password" />
+            </div>
+          </CardContent>
+          <CardFooter>
+            <Button>Create account</Button>
+          </CardFooter>
+        </Card>
+      </div>
+    </div>
   );
 };
